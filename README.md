@@ -1,4 +1,3 @@
-# 3123004790
 论文查重系统
 ==========
 | 这个作业属于哪个课程 | https://edu.cnblogs.com/campus/gdgy/Class34Grade23ComputerScience |
@@ -6,6 +5,7 @@
 | 这个作业要求在哪里| https://edu.cnblogs.com/campus/gdgy/Class34Grade23ComputerScience/homework/13477 |
 | 这个作业的目标 | 使用PSP表格，完成项目开发，测试改进代码 |
 |github链接|https://github.com/OcOGUA/3123004790|
+
 一、PSP表格
 ----------
 |**PSP2.1**|**Personal Software Process Stages**|**预估耗时（分钟）**      |**实际耗时（分钟）**     |
