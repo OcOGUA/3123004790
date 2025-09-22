@@ -1,0 +1,151 @@
+         274592 function calls (274580 primitive calls) in 1.853 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001    1.853    1.853 C:\python\paper_detection_system\main.py:71(run_main)
+        1    0.003    0.003    1.850    1.850 C:\python\paper_detection_system\main.py:34(calculate_similarity)
+        2    0.000    0.000    1.843    0.922 C:\python\paper_detection_system\main.py:24(cut_text)
+        2    0.005    0.003    1.843    0.922 C:\python\paper_detection_system\.venv\Lib\site-packages\jieba\__init__.py:356(lcut)
+    13141    0.020    0.000    1.838    0.000 C:\python\paper_detection_system\.venv\Lib\site-packages\jieba\__init__.py:289(cut)
+    11779    0.022    0.000    1.808    0.000 C:\python\paper_detection_system\.venv\Lib\site-packages\jieba\__init__.py:249(__cut_DAG)
+     1803    0.048    0.000    1.560    0.001 C:\python\paper_detection_system\.venv\Lib\site-packages\jieba\__init__.py:180(get_DAG)
+     1803    0.001    0.000    1.505    0.001 C:\python\paper_detection_system\.venv\Lib\site-packages\jieba\__init__.py:168(check_initialized)
+        1    0.000    0.000    1.504    1.504 C:\python\paper_detection_system\.venv\Lib\site-packages\jieba\__init__.py:93(initialize)
+        1    1.500    1.500    1.500    1.500 {built-in method marshal.load}
+     6034    0.015    0.000    0.131    0.000 C:\python\paper_detection_system\.venv\Lib\site-packages\jieba\finalseg\__init__.py:85(cut)
+     6034    0.009    0.000    0.106    0.000 C:\python\paper_detection_system\.venv\Lib\site-packages\jieba\finalseg\__init__.py:59(__cut)
+     1659    0.056    0.000    0.096    0.000 C:\python\paper_detection_system\.venv\Lib\site-packages\jieba\finalseg\__init__.py:37(viterbi)
+     1803    0.021    0.000    0.092    0.000 C:\python\paper_detection_system\.venv\Lib\site-packages\jieba\__init__.py:172(calc)
+    30559    0.031    0.000    0.085    0.000 {built-in method builtins.max}
+    35896    0.033    0.000    0.050    0.000 C:\python\paper_detection_system\.venv\Lib\site-packages\jieba\__init__.py:177(<genexpr>)
+    74234    0.036    0.000    0.036    0.000 {method 'get' of 'dict' objects}
+    12666    0.011    0.000    0.011    0.000 {method 'match' of 're.Pattern' objects}
+    23983    0.009    0.000    0.009    0.000 {method 'append' of 'list' objects}
+     6782    0.008    0.000    0.008    0.000 {method 'split' of 're.Pattern' objects}
+    22387    0.007    0.000    0.007    0.000 {built-in method math.log}
+    15199    0.004    0.000    0.004    0.000 {built-in method builtins.len}
+     4977    0.003    0.000    0.004    0.000 C:\python\paper_detection_system\.venv\Lib\site-packages\jieba\finalseg\__init__.py:54(<genexpr>)
+        1    0.000    0.000    0.002    0.002 C:\python\Lib\tempfile.py:313(gettempdir)
+        1    0.000    0.000    0.002    0.002 C:\python\Lib\tempfile.py:301(_gettempdir)
+        2    0.000    0.000    0.002    0.001 C:\python\paper_detection_system\main.py:29(get_word_frequency)
+        2    0.000    0.000    0.002    0.001 C:\python\Lib\collections\__init__.py:595(__init__)
+        2    0.000    0.000    0.002    0.001 C:\python\Lib\collections\__init__.py:669(update)
+        1    0.000    0.000    0.002    0.002 C:\python\Lib\tempfile.py:183(_get_default_tempdir)
+     1661    0.001    0.000    0.002    0.000 C:\python\paper_detection_system\.venv\Lib\site-packages\jieba\_compat.py:76(strdecode)
+        2    0.002    0.001    0.002    0.001 {built-in method _collections._count_elements}
+        4    0.000    0.000    0.002    0.000 C:\python\Lib\logging\__init__.py:1517(debug)
+        4    0.000    0.000    0.002    0.000 C:\python\Lib\logging\__init__.py:1660(_log)
+        4    0.001    0.000    0.001    0.000 {built-in method _io.open}
+        4    0.000    0.000    0.001    0.000 C:\python\Lib\logging\__init__.py:1686(handle)
+        4    0.000    0.000    0.001    0.000 C:\python\Lib\logging\__init__.py:1746(callHandlers)
+        4    0.000    0.000    0.001    0.000 C:\python\Lib\logging\__init__.py:1011(handle)
+        4    0.000    0.000    0.001    0.000 C:\python\Lib\logging\__init__.py:1148(emit)
+        2    0.000    0.000    0.001    0.000 C:\python\paper_detection_system\main.py:11(read_file)
+     1717    0.001    0.000    0.001    0.000 {built-in method builtins.isinstance}
+        1    0.001    0.001    0.001    0.001 {built-in method nt.open}
+        5    0.001    0.000    0.001    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+        1    0.001    0.001    0.001    0.001 {built-in method nt.unlink}
+        2    0.000    0.000    0.000    0.000 {method 'read' of '_io.TextIOWrapper' objects}
+        4    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        4    0.000    0.000    0.000    0.000 C:\python\Lib\logging\__init__.py:1645(makeRecord)
+        4    0.000    0.000    0.000    0.000 C:\python\Lib\logging\__init__.py:298(__init__)
+        4    0.000    0.000    0.000    0.000 C:\python\Lib\logging\__init__.py:1611(findCaller)
+        1    0.000    0.000    0.000    0.000 C:\python\Lib\tempfile.py:156(_candidate_tempdir_list)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+       12    0.000    0.000    0.000    0.000 C:\python\Lib\logging\__init__.py:200(_is_internal_frame)
+        2    0.000    0.000    0.000    0.000 <frozen codecs>:319(decode)
+        1    0.000    0.000    0.000    0.000 C:\python\Lib\tempfile.py:153(__next__)
+        2    0.000    0.000    0.000    0.000 {built-in method _codecs.utf_8_decode}
+        1    0.000    0.000    0.000    0.000 {built-in method nt.write}
+        1    0.000    0.000    0.000    0.000 {built-in method nt.close}
+       12    0.000    0.000    0.000    0.000 <frozen ntpath>:51(normcase)
+        5    0.000    0.000    0.000    0.000 <frozen ntpath>:236(split)
+        4    0.000    0.000    0.000    0.000 C:\python\Lib\logging\__init__.py:988(format)
+        4    0.000    0.000    0.000    0.000 <frozen ntpath>:268(basename)
+        1    0.000    0.000    0.000    0.000 C:\python\Lib\tempfile.py:142(rng)
+        4    0.000    0.000    0.000    0.000 C:\python\Lib\logging\__init__.py:1137(flush)
+        4    0.000    0.000    0.000    0.000 C:\python\Lib\logging\__init__.py:690(format)
+        2    0.000    0.000    0.000    0.000 <frozen abc>:117(__instancecheck__)
+        2    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        1    0.000    0.000    0.000    0.000 C:\python\Lib\random.py:126(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen os>:779(getenv)
+        6    0.000    0.000    0.000    0.000 <frozen os>:680(__getitem__)
+        4    0.000    0.000    0.000    0.000 <frozen ntpath>:257(splitext)
+      7/1    0.000    0.000    0.000    0.000 <frozen abc>:121(__subclasscheck__)
+        3    0.000    0.000    0.000    0.000 <frozen _collections_abc>:804(get)
+      7/1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
+        1    0.000    0.000    0.000    0.000 C:\python\Lib\random.py:135(seed)
+        9    0.000    0.000    0.000    0.000 <frozen ntpath>:179(splitroot)
+        2    0.000    0.000    0.000    0.000 <frozen ntpath>:107(join)
+        1    0.000    0.000    0.000    0.000 <frozen ntpath>:411(expandvars)
+        4    0.000    0.000    0.000    0.000 <frozen genericpath>:133(_splitext)
+       12    0.000    0.000    0.000    0.000 {built-in method _winapi.LCMapStringEx}
+        1    0.000    0.000    0.000    0.000 {built-in method nt._path_isfile}
+        1    0.000    0.000    0.000    0.000 <frozen ntpath>:350(expanduser)
+        1    0.000    0.000    0.000    0.000 C:\python\Lib\random.py:454(choices)
+        4    0.000    0.000    0.000    0.000 C:\python\Lib\logging\__init__.py:674(formatMessage)
+        1    0.000    0.000    0.000    0.000 {function Random.seed at 0x0000010EDB8228E0}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        8    0.000    0.000    0.000    0.000 C:\python\Lib\logging\__init__.py:968(acquire)
+        4    0.000    0.000    0.000    0.000 C:\python\Lib\logging\__init__.py:462(format)
+        4    0.000    0.000    0.000    0.000 C:\python\Lib\logging\__init__.py:1790(isEnabledFor)
+        6    0.000    0.000    0.000    0.000 <frozen os>:754(encodekey)
+        4    0.000    0.000    0.000    0.000 C:\python\Lib\logging\__init__.py:455(_format)
+        1    0.000    0.000    0.000    0.000 <frozen ntpath>:275(dirname)
+        1    0.000    0.000    0.000    0.000 <frozen ntpath>:596(abspath)
+        4    0.000    0.000    0.000    0.000 C:\python\Lib\logging\__init__.py:668(usesTime)
+        8    0.000    0.000    0.000    0.000 C:\python\Lib\logging\__init__.py:975(release)
+       21    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 C:\python\Lib\logging\__init__.py:170(<lambda>)
+       36    0.000    0.000    0.000    0.000 {built-in method nt.fspath}
+        4    0.000    0.000    0.000    0.000 C:\python\Lib\logging\__init__.py:447(usesTime)
+        4    0.000    0.000    0.000    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
+        4    0.000    0.000    0.000    0.000 C:\python\Lib\logging\__init__.py:129(getLevelName)
+        9    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
+       12    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.round}
+        8    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        9    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
+        6    0.000    0.000    0.000    0.000 <frozen os>:748(check_str)
+        4    0.000    0.000    0.000    0.000 C:\python\Lib\threading.py:1483(current_thread)
+        6    0.000    0.000    0.000    0.000 <frozen ntpath>:35(_get_bothseps)
+        4    0.000    0.000    0.000    0.000 C:\python\Lib\logging\__init__.py:383(getMessage)
+        1    0.000    0.000    0.000    0.000 <frozen ntpath>:564(normpath)
+        1    0.000    0.000    0.000    0.000 {built-in method nt.getcwd}
+        5    0.000    0.000    0.000    0.000 {built-in method nt.getpid}
+        8    0.000    0.000    0.000    0.000 C:\python\Lib\logging\__init__.py:831(filter)
+        6    0.000    0.000    0.000    0.000 {built-in method time.time}
+        1    0.000    0.000    0.000    0.000 <frozen _collections_abc>:811(__contains__)
+        2    0.000    0.000    0.000    0.000 <frozen codecs>:309(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method nt._getfullpathname}
+        4    0.000    0.000    0.000    0.000 C:\python\Lib\threading.py:1180(name)
+        4    0.000    0.000    0.000    0.000 {built-in method sys._getframe}
+        5    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        8    0.000    0.000    0.000    0.000 {method 'random' of '_random.Random' objects}
+        1    0.000    0.000    0.000    0.000 <frozen os>:824(fsdecode)
+        4    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+        8    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        6    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\python\Lib\logging\__init__.py:234(_acquireLock)
+        8    0.000    0.000    0.000    0.000 {built-in method math.floor}
+        7    0.000    0.000    0.000    0.000 <frozen _collections_abc>:435(__subclasshook__)
+        2    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+        1    0.000    0.000    0.000    0.000 C:\python\Lib\logging\__init__.py:243(_releaseLock)
+        2    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method nt._path_normpath}
+        1    0.000    0.000    0.000    0.000 {method 'index' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.RLock' objects}
+        1    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        1    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 <frozen codecs>:186(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen codecs>:260(__init__)
+        1    0.000    0.000    0.000    0.000 C:\python\Lib\logging\__init__.py:1369(disable)
+        1    0.000    0.000    0.000    0.000 C:\python\Lib\logging\__init__.py:1776(getEffectiveLevel)
+
+
